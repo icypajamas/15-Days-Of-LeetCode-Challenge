@@ -1,7 +1,7 @@
 class Solution {
     public List<String> fizzBuzz(int n) {
         String[] answer = new String[n];
-        for(int i = 1; i <= answer.length; i++){
+        for(int i = 1; i <= n; i++){
             if(i % 3 == 0 && i % 5 == 0){
                 answer[i-1] = "FizzBuzz";
             }else if(i % 3 == 0){
